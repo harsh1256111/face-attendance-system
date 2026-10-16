@@ -1,0 +1,6 @@
+opencv-python
+numpy
+face_recognition
+firebase-admin
+# face_recognition needs dlib. On Windows, install a prebuilt wheel matching
+# your Python version (see README) or build with CMake + Visual Studio Build Tools.

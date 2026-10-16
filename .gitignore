@@ -1,0 +1,21 @@
+# Secrets - NEVER commit
+serviceAccount.json
+*serviceAccount*.json
+.env
+firebase-debug.log
+
+# Biometric data & personal photos
+encodings/*.npy
+!encodings/.gitkeep
+*.npy
+known_faces/*
+!known_faces/.gitkeep
+
+# Environment / build
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.whl
+get-pip.py
+desktop.ini
